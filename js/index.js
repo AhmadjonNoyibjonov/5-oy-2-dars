@@ -110,3 +110,150 @@
 //   return res;
 // }
 // console.log(IndexOfMethod([2, 4, 7, 9, 12, 29], 4));
+
+// 5-masala
+// function LastIndexOfMethod(arg) {
+//   let res;
+//   res = arg.lastIndexOf(2)
+
+//   return res;
+// }
+
+// console.log(LastIndexOfMethod([2, 4, 5, 2, 6, 2, 9]));
+
+// 6-masala
+// function ConcatandIndexOfcombined(arg1, arg2) {
+//   let result;
+//      let res1;
+//   let res2;
+//   res1 = arg1.includes(6)
+//   res2 = arg2.includes(6)
+//     if(res1 == true && res2 == true) {
+//         result = true
+//     }else {
+//         result = false
+//     }
+//   return result;
+// }
+// console.log(ConcatandIndexOfcombined([2, 3, 5, 6], [6, 8, 9, 12]));
+
+// 7-masala
+// const Includesmethod = (arg) => {
+//     let res;
+//     res = arg.includes(5)
+//     return res;
+// }
+// console.log(Includesmethod([3,7,8,9]));
+
+// 8-masala
+// function ForEachmethod(arg) {
+//   let res;
+//   let sum = 0;
+//   let count = 0;
+//   arg.forEach(value => {
+//     if(value / 100 >= 1 && value /100 < 10) {
+//         sum = sum + value
+//         count = count + 1
+//     }
+//   })
+
+//   res = sum / count
+
+//   return res;
+// }
+// console.log(ForEachmethod([12,29,101,242,145,683,109,73]));
+
+// 9-masala
+// const Mapmethod = (arg) => {
+//     let res;
+//     res = arg.map(value => {
+//         if(value % 2 == 1) {
+//             return value ** 3
+//         } else {
+//             return value ** 2
+//         }
+//     })
+
+//     return res;
+// }
+// console.log(Mapmethod([2,4,6,8,3,7,12,29]));
+
+// 10-masala
+// function arrayVSString(arg) {
+//     let res;
+//     res = arg.map(value => {
+//         return value = arg.at(-1)
+//     })
+
+//     return res;
+// }
+// console.log(arrayVSString(["salom","bye","hello","good"]));
+
+// 11-masala
+// function Filtermethod(arg) {
+//     let res;
+//     res = arg.filter(value => {
+//         return value.length < 4
+//     })
+
+//     return res;
+// }
+// console.log(Filtermethod(["bye","hello","ok","salom","yes","good"]));
+
+// 12-masala
+// function Somemethod(arg) {
+//     let res;
+//     res = arg.some(value => {
+//         if(value.age >18) {
+//             return true
+//         } else {
+//             return false
+//         }
+//     })
+
+//     if(res == true) {
+//         res = "18 yoshdan kattalar bor"
+//     } else {
+//         res = "18 yoshdan kattalar yo'q"
+//     }
+
+//     return res;
+// }
+// console.log(Somemethod([
+//     {name:"Olga",age:19},
+//     {name:"Devid",age:18},
+//     {name:"Alex",age:17},
+//     {name:"Jhon",age:21},
+//     {name:"Dilya",age:15},
+// ]));
+
+// 13-masala
+// function Everymethod(arg) {
+//   let res;
+//     res = arg.every(value => {
+//         return value.includes("jon")
+//     })
+//   return res;
+// }
+// console.log(Everymethod(["Sherzodjon", "Ahmadjon", "Odiljon", "Alijon"]));
+
+// 14-masala
+// const Findmethod = function (arg) {
+//   let res;
+//     res = arg.find(value => {
+//         return value % 3 == 0 && value % 5 == 0
+//     })
+//   return res;
+// };
+// console.log(Findmethod([2, 4, 6, 8, 15,25,30]));
+
+// 15-masala
+// function FindIndexmethod(arg) {
+//     let res;
+//     res = arg.findIndex(value => {
+//         return value.includes("bek")
+//     })
+
+//     return res;
+// }
+// console.log(FindIndexmethod(["Sherzod","Abrorxon","Ahrorbek","Alisher"]));
